@@ -7,6 +7,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             Console.WriteLine("Начальный");
+            Chislo();
+        }
+        static void Chislo()
+        {
+            Console.WriteLine("Два числа");
         }
     }
 }
