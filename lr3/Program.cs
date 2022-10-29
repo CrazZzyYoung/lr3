@@ -8,5 +8,9 @@ namespace MyApp // Note: actual namespace depends on the project name.
         {
             Console.WriteLine("Начальный");
         }
+        static void Del()
+        {
+            Console.WriteLine("деление";
+        }
     }
 }
