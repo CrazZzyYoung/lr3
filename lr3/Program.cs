@@ -7,10 +7,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             Console.WriteLine("Начальный");
+            Del();
         }
         static void Del()
         {
-            Console.WriteLine("деление";
+            Console.WriteLine("деление");
         }
     }
 }
