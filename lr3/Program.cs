@@ -9,6 +9,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
             Console.WriteLine("Начальный");
             sloj();
             Step();
+            Del();
         }
         
         static void sloj()
@@ -20,6 +21,11 @@ namespace MyApp // Note: actual namespace depends on the project name.
         static void Step()
         {
             Console.WriteLine("Степень");
+            
+        }
+        static void Del()
+        {
+            Console.WriteLine("деление");
         }
     }
 }
