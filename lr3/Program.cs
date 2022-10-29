@@ -7,9 +7,16 @@ namespace MyApp // Note: actual namespace depends on the project name.
         static void Main(string[] args)
         {
             Console.WriteLine("Начальный");
+            Vichitanie();
             sloj();
             Step();
             Del();
+        }
+        static void Vichitanie()
+
+        {
+            Console.WriteLine("Вычитание");
+            
         }
         
         static void sloj()
